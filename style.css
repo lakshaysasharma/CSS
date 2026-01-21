@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+p{
+    color: red;
+}
+
+.a{
+    color: blue;
+}
+
+#a{
+    color: blueviolet;
+}
+
+#H1{
+    color: green;
+}
+
+#main{
+    width: 20%;
+    height: 40%;
+    background-color: black;
+}
+
+#main2{
+    width: 50px;
+    height: 100px;
+    background-color: red;
+}
+
+
+#main3{
+    width: 70px;
+    height: 100px;
+    background-color: greenyellow;
+    margin: 20px 10px 20px 5px;
+}
+
+#main4{
+    background-color: blueviolet;
+    color: yellow;
+    height: 150px;
+    width: 150px;
+    padding: 50px 10px 20px 15px;
+}
+
+#main5{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1768391267094-b5c289a0b395?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw1fHx8ZW58MHx8fHx8);
+    background-size: cover;
+    background-position: center;
+}
+
+#car1{
+    /* position: absolute; */
+    width: 80px;
+    height: 50px;
+    background-color: red;
+}
+#car2{
+    /* position: absolute; */
+    /* left: 20%;
+    top: 90%; */
+    width: 50px;
+    height: 80px;
+    background-color: blueviolet;
+}
+#car3{
+    /* position: absolute; */
+    width: 70px;
+    height: 60px;
+    background-color: green;
+}
+
+#box{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+
+#inner-box{
+    position: absolute;
+    left: 20%;
+    height: 40px;
+    width: 40px;
+    background-color: yellow;
+}
